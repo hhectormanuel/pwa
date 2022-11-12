@@ -152,19 +152,19 @@ PWA_APP_RELATED_APPLICATIONS = [
 ]
 PWA_APP_ICONS = [
     {
-        'src': 'https://www.freepnglogos.com/uploads/app-store-logo-png/app-store-logo-png-3.png',
+        'src': './static/assets/160x160.png',
         'sizes': '160x160'
     }
 ]
 PWA_APP_ICONS_APPLE = [
     {
-        'src': 'https://www.freepnglogos.com/uploads/app-store-logo-png/app-store-logo-png-3.png',
+        'src': './static/assets/160x160.png',
         'sizes': '160x160'
     }
 ]
 PWA_APP_SPLASH_SCREEN = [
     {
-        'src': 'https://www.freepnglogos.com/uploads/app-store-logo-png/app-store-logo-png-3.png',
+        'src': './static/assets/160x160.png',
         'media': '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)'
     }
 ]
