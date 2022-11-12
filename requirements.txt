@@ -1,5 +1,5 @@
 asgiref==3.5.2
-Django==
+Django==3.2.15
 django-pwa==1.0.10
 sqlparse==0.4.3
 tzdata==2022.6
