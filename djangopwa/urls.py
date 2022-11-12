@@ -7,4 +7,4 @@ app_name = 'djangopwa'
 
 urlpatterns =[
     path('index',IndexView.as_view(), name='index' )
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]#+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
