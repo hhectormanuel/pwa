@@ -464,7 +464,9 @@
                 number = (document.querySelector("#number").value)
                 message = (document.querySelector("#message").value)
 
-                const body2 = {
+                if (nombre != "" && email != "" && number != "" && message != ""){
+
+                    const body2 = {
                     nombre : nombre,
                     email : email,
                     numero: number,
@@ -476,7 +478,14 @@
 
                 setTimeout(function(){
                     window.location.reload()
-                }, 5000);
+                }, 12000);
+                } else {
+                    window.alert("No debe haber campos vacio");
+                }
+
+                
+
+                
                 // window.location.reload()
             }
         </script>
